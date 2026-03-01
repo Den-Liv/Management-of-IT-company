@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80af6c9f-87bc-4626-a2e4-5c8da971fd74">
+  <producedTypes>
+    <objectType typeId="a6862b37-e819-4dea-8166-a71e85cd2e99" valueTypeId="f3ef6a33-4dc4-4fe5-bff8-7cc16ca54ede"/>
+    <refType typeId="cc09aef1-e08d-4887-9cd0-60012919d6b6" valueTypeId="576fe94a-c23e-4aa2-9939-41ced0092abc"/>
+    <selectionType typeId="c3a52de6-81a9-4c0e-8411-949b719f048e" valueTypeId="dbcb5310-040a-4893-8654-30b91a66ae84"/>
+    <listType typeId="f417b023-27a4-4ed7-befd-77d0ac9d8b1c" valueTypeId="8832960d-664e-4891-a680-0f48d931a0cc"/>
+    <managerType typeId="7d58e38c-88e2-44f0-a970-eea8887cc1fc" valueTypeId="2307f0b9-34e6-48cd-925e-b0dd2359c078"/>
+  </producedTypes>
+  <name>ВКМ_Специалисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалисты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Специалист</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c8c2f856-d821-457c-a848-4548a38d5c2b">
+    <name>ВидСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_ВидыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

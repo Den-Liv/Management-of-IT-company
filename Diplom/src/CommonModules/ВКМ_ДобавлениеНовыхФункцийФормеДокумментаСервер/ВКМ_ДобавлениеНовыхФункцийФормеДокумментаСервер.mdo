@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61534cc6-4efe-44ff-82d2-39a4961c9e85">
+  <name>ВКМ_ДобавлениеНовыхФункцийФормеДокумментаСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ добавление новых функций форме докуммента сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
